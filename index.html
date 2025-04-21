@@ -1,78 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema Digital de Receita e Prontuário Médico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-
-        .container {
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-            font-size: 18px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        .button:hover {
-            background-color: #45a049;
-        }
-
-        .image-space {
-            margin-top: 20px;
-            border: 2px dashed #ccc;
-            padding: 20px;
-            background-color: #fff;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vital+ - Prontuário Médico Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Sistema Digital de Receita e Prontuário Médico</h1>
-    </header>
+<body class="bg-white text-blue-900 font-sans">
 
-    <div class="container">
-        <h1>Bem-vindo</h1>
-        <p>Gerencie suas receitas e prontuários médicos de forma prática e segura.</p>
-        
-        <!-- Botões -->
-        <a href="#" class="button">Como funciona uma receita digital?</a>
-        <a href="#" class="button">Equipe</a>
-
-       <!-- Espaço para imagem 
-      <div class="image-space">
-           -->
-        </div>
+  <!-- Header -->
+  <header class="bg-blue-800 text-white p-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <a href="index.html" class="flex items-center space-x-2">
+          <div class="text-3xl font-bold">Vital<span class="text-yellow-400">+</span></div>
+        </a>
+        <div class="text-sm">Prontuário Médico Digital</div>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="planos.html" class="hover:underline">Planos</a>
+        <a href="#quem-somos" class="hover:underline">Quem Somos</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+      </nav>
     </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20">
+    <div class="max-w-5xl mx-auto text-center px-4">
+      <h1 class="text-4xl font-bold text-blue-800 mb-4">Organize. Automatize. Cuide.</h1>
+      <p class="text-lg mb-6 text-blue-900">Solução digital para prontuários médicos. Mais controle, menos papelada.</p>
+      <a href="planos.html" class="px-6 py-3 bg-blue-700 text-white rounded-lg font-semibold">Ver Planos</a>
+    </div>
+  </section>
+
+  <!-- Quem Somos -->
+  <section id="quem-somos" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-6">Quem Somos</h2>
+      <p class="text-blue-900">Somos uma equipe dedicada a transformar a maneira como profissionais da saúde gerenciam informações dos pacientes. O Vital+ nasceu com a missão de facilitar o acesso, a organização e o acompanhamento dos dados médicos de forma segura e eficiente.</p>
+    </div>
+  </section>
+
+  <!-- Contato e Localização -->
+  <section id="contato" class="py-16 bg-blue-100">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-900">Entre em Contato</h2>
+      <p class="mb-4">Email: contato@vitalmais.com</p>
+      <p class="mb-4">Telefone: (00) 1234-5678</p>
+      <p class="mb-4">Endereço: Rua da Saúde, 123 - Centro, Cidade - UF</p>
+      <div class="mt-6">
+        <a href="#" class="text-blue-700 underline mx-2">Instagram</a>
+        <a href="#" class="text-blue-700 underline mx-2">Facebook</a>
+        <a href="#" class="text-blue-700 underline mx-2">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-blue-800 text-white text-center py-6">
+    <p>&copy; 2025 Vital+ - Todos os direitos reservados</p>
+  </footer>
+
 </body>
 </html>
